@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+/* header start here */
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/slide01.jpg);    
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.nav h4{
+    font-size:15px;
+    font-weight: 400;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+
+.nav h5{
+
+    font-size:15px;
+    font-weight: 400;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+
+}
+
+.nav span{
+    padding-right:10px ;
+
+}
+
+
+.nav .light{
+    color:lightgrey;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+
+/*banner start here*/
+
+
+
+.banner-text{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+
+}
+
+
+.banner-text hr{
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 20px;
+   
+   
+}
+
+
+.banner-text p{
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: lightgray;
+    font-size:13px
+}
+
+.banner-text .white{
+    color: #fff ;
+}
+
+
+
+.banner-text h1{
+    font-size: 110px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+
+/*------------------- banner end here-----------*/
+
+
+
+/*--------------- header end here------------- */
+
+
+
+
+/*-----------------TWO-SECTION START ------------*/
+.full-wrapper{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #dfdfdf;
+}
+
+
+.full-wrapper .fix{
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.two-section .fix .left{
+    float: left;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom:50px;
+
+}
+
+.two-section .fix .right{
+    float: right;
+    width: 45%;
+    background-color: #fff;
+    padding-bottom:50px;
+
+}
+
+.two-section img{
+    width: 100%;
+
+}
+
+.two-section h6{
+    letter-spacing: 3px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 8px;
+    margin-top: 10px;
+
+}
+
+.two-section hr{
+    width: 40%;
+    margin: 0 auto;
+    color: gray;
+    height: 0.5px;
+}
+
+.two-section h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;
+
+}
+
+.align-left{
+    text-align: left;
+    padding: 0 30px;
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.two-section button{
+    width:150px;
+    height: 40px;
+    background-color:none;
+    font-family:'poppins'sans-serif ;
+    margin-top: 30px;
+    border: 2px solid #dfdfdf;
+}
+
+/*-----------------TWO-SECTION END ------------*/
+
+
+
+.full-quote{
+    text-align: center;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.full-quote p {
+   letter-spacing: 2px;
+   font-size: 10px;
+
+
+}
+
+.full-quote hr {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.full-quote h5{
+    font-size: 30px;
+    font-weight: 200;
+    margin: 20px 0;
+}
+
+
+/*----------quote end------------*/
+
+/***---------four-image----------*/
+
+
+
+
+
+.fix-two{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.fix-two p {
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-align: center;
+ 
+ 
+ }
+ 
+ .fix-two hr {
+     width: 30%;
+     margin: 0 auto;
+     margin-top: 25px;
+ }
+ 
+ .fix-two h5{
+     font-size: 30px;
+     font-weight: 200;
+     margin: 20px 0;
+     text-align: center;
+ }
+ 
+
+
+
+.four-image img{
+    width: 45%;
+    float:left;
+    margin-bottom: 5%;
+    border: 10px solid #fff;
+    margin-top: 20px;
+}
+
+.four-image .left{
+    margin-left: 5%;
+}
+
+/* fotter star---------------------t*/
+
+.footer-full{
+    background-color: #000;
+    color: gray;
+}
+
+.footer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+    
+
+.footer .fa{
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+
+/*--------------------- media query start here ------------------------------------------*/
+
+
+
+@media only screen and (max-width:900px){
+    .banner-text h1{
+        font-size: 80px;
+    }
+
+    
+   .two-section .fix .left{
+       width: 100%;
+       padding-bottom: 50px;
+    }
+
+    
+   .two-section .fix .right{
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+
+
+    .four-image img{
+        width: 100%;
+        clear: both;
+       
+        
+    }
+
+    .four-image .left{
+        margin-left: 0;
+    }
+}
+
+
+
+
+@media only screen and (max-width:600px){
+
+    .full-quote p {
+        letter-spacing: 3px;
+        font-size: 10px; 
+     }
+     
+    .full-quote hr {
+        width: 60%;
+  
+     }
+
+     .full-quote h5{
+        font-size: 30px; 
+   }
+
+
+
+
+     .fix-two p {
+        letter-spacing: 3px;
+        font-size: 10px;
+   
+ 
+ 
+   }
+ 
+      .fix-two hr {
+        width: 60%;
+    }
+ 
+     .fix-two h5{
+        font-size: 30px;
+     
+    }
+ 
+
+}
